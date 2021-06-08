@@ -1,11 +1,11 @@
 body{
     margin:0 auto;
-    max-width: 960px;
+    
     
 }
 
 .container {
-    max-width: 960px;
+    
     margin: 0 auto;
     
 }
@@ -133,5 +133,24 @@ body .container2{
 .final input{
     outline:none;
     
+    
+}
+
+@media  screen and (min-width:768px) {
+.ponto{ flex-direction:row;
+        justify-content:space-around;
+
+    }
+}
+
+body .container2{
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+body .final{
+    width:30%;
+    flex-direction:row;
     
 }
