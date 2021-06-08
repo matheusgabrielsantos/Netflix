@@ -63,9 +63,7 @@ body{
 }
 
 body {
-    background: url(./fundo.jpeg) center no-repeat;
-    background-position:50% 50%;
-    background-size:cover;
+    background: url(./fundo.jpeg)no-repeat ;
 }
 
 body .container2{
